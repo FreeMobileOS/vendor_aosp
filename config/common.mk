@@ -52,15 +52,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     media.recorder.show_manufacturer_and_model=true
 
-# GApps
-include vendor/gapps/config.mk
-
-# Pixel Style
-include vendor/pixelstyle/config.mk
-
-# Themes
-include vendor/themes/config.mk
-
 # Packages
 include vendor/aosp/config/packages.mk
 
